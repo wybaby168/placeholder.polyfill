@@ -1,0 +1,22 @@
+.placeholder-wrap {
+
+}
+
+.placeholder {
+    /*float: left;*/
+    /*display: inline;*/
+    /*margin: 0;*/
+    /*font-size: 14px;*/
+    /*position: absolute;*/
+    /*white-space: nowrap;*/
+    color: #999 !important;
+    z-index: 1000;
+}
+
+.placeholder.form-control {
+    border-radius: 4px !important;
+}
+
+[disabled].placeholder-wrap, [readonly].placeholder-wrap, [disabled].placeholder, [readonly].placeholder {
+    background-color: #eee;
+}
